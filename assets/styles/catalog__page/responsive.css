@@ -1,0 +1,308 @@
+
+@media (max-width: 675px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        margin: 0 2px;
+      }
+        /* Header */
+
+        .svg__logo{
+            width: 91px;
+        }
+    
+        /* Navigation */
+    
+        nav{
+            padding: 5px 5px;
+        }
+    
+        nav ul{
+            display: none;
+        }
+    
+    
+        /* Header Link */
+    
+        .header__link{
+        gap: 0px;
+        margin-right: 5px;
+        }
+    
+        .header__link a{
+            margin-right: 11.5px;
+            font-weight: 400;
+            font-size: 10.35px;
+            padding: 4px 8px;
+        }
+    
+        .svg_heart{
+        width: 17px;
+        margin-right: 7px;
+        }
+    
+        .svg_Cart{
+        width: 17px;
+        }
+
+
+.burger-menu{
+    display: block; 
+    margin-left: 10px;
+}
+
+    /* Catalog Filter */
+
+.Catalog-filter{
+    gap: 10px;
+    align-items: center;
+}
+
+ 
+    
+.Catalog-controls{
+    margin-top: 9px;
+}
+
+.Catalog-filter li{
+    padding: 1px 10px 0px 5px;
+    gap: 3px;
+    position: relative;
+}
+
+
+.Catalog-filter li a {
+    font-size: 9px;
+}
+
+.Catalog-filter li span svg{
+    width: 8px;
+    height: 8px;
+    top: 2px;
+    bottom: 2px;
+    right: 2px;
+    position: absolute;
+}
+
+.Catalog_form{
+    width: 140px;
+    height: 14px;
+    font-size: 9px;
+}
+
+.Catalog_form .Catalog_input{
+    padding: 1px 3px;
+    font-size: 9px;
+
+
+}
+
+    /* Catalog Navigation */ 
+.Catalog_form svg{
+    margin-right: 3px;
+    width: 9px;
+    height: 9px;
+    cursor: pointer;
+}
+
+
+.Catalog-controls .Catalog-nav{
+    display: none;
+}
+
+.nav-burger-menu{
+    display: block;
+    margin-right: 10px;
+}
+
+    /* Catalog Block */
+
+
+.Catalog__items{
+    margin-top: 10px;
+    
+}
+
+.Catalog__items h2{
+    font-size: 24px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.Catalog__inner__img{
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.Catalog__inner__img div{
+    gap: 10px;
+    justify-content: normal;
+}
+
+
+
+.item_content{
+    width: 100%;
+    padding: 5px 8px;
+}
+
+.item_content_title{
+    margin-right: 160px;
+}
+
+
+.item_content .item_content_title{
+    padding: 4px 8px;
+    font-weight: 200;
+    font-size: 21px;
+}
+
+.item_footer{ 
+    margin-top: 300px;
+    margin-right: 3px;
+}
+
+
+.items_1{
+   width: 100%;
+   height: 410px;
+   background: url(../../img/catolog_img/ottomans_360.png);
+   background-repeat: no-repeat;
+}
+.items_2{
+   width: 100%;
+   height: 410px;
+   background: url(../../img/catolog_img/ottomans_360.png);
+   background-repeat: no-repeat;
+}
+.items_7{
+   width: 100%;
+   height: 410px;
+   background: url(../../img/catolog_img/ottomans_360.png);
+   background-repeat: no-repeat;
+}
+
+.Catalog__inner__img .items_3{
+    display: none;
+}
+
+.Catalog__inner__img .items_4{
+    display: none;
+}
+
+.Catalog__inner__img .items_5{
+    display: none;
+}
+.Catalog__inner__img .items_6{
+    display: none;
+}
+
+.Catalog__inner__img .items_8{
+    display: none;
+}
+.Catalog__inner__img .items_9{
+    display: none;
+}
+
+
+
+.slide-controls{
+    margin-top: 80px;
+}
+
+    /* Footer */
+
+    footer{    
+        height: 300px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    .footer_svg{
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    
+        /* Footer Content */
+    
+    .footer__catalog span{
+        font-size: 10px;
+    }
+    
+    .footer__catalog p{
+        font-size: 6px;
+        padding-top: 8px;
+    }
+    
+        /* Footer Navigation */ 
+    
+    .footer__navigation p{
+        font-size: 10px;
+    }
+    
+    .footer__navigation ul li{
+        padding-top: 0;
+    }
+    
+    .footer__navigation ul li a {
+        font-size: 6px;
+    }
+    
+    .footer_info_title_1{
+        font-size: 10px;
+        width: 160px;
+    
+        margin-bottom: 2px;
+    }
+    
+    .footer__info form input{
+        width: 100px;
+    }
+    
+    .footer__info form span svg {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .footer_info_title_2{
+        font-size: 5px;
+    }
+    
+        /* Footer privacy */
+    
+    .footer__privacy{
+        margin-top: 3px;
+    }
+    
+    .footer__privacy p{
+        font-size: 8px;
+    }
+
+    .container,
+    .Catalog__items,
+    .Catalog__inner__img,
+    footer {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+      overflow-x: hidden !important;
+    }
+
+    .slide-controls {
+        position: relative;
+        right: auto !important;
+        left: auto !important;
+        transform: none !important;
+      }
+
+
+
+
+}

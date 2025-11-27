@@ -1,0 +1,240 @@
+@media (max-width: 675px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        margin: 0 10px;
+      }
+        /* Header */
+
+        .svg__logo{
+            width: 91px;
+        }
+    
+        /* Navigation */
+    
+        nav{
+            padding: 5px 5px;
+        }
+    
+        nav ul{
+            display: none;
+        }
+    
+    
+        /* Header Link */
+    
+        .header__link{
+        gap: 0px;
+        margin-right: 5px;
+        }
+    
+        .header__link a{
+            margin-right: 11.5px;
+            font-weight: 400;
+            font-size: 10.35px;
+            padding: 4px 8px;
+        }
+    
+        .svg_heart{
+        width: 17px;
+        margin-right: 7px;
+        }
+    
+        .svg_Cart{
+        width: 17px;
+        }
+
+
+.burger-menu{
+    display: block; 
+    margin-left: 10px;
+}
+
+
+    /* Cart Blokc */
+.cart__content__inner{
+    flex-direction: column;
+}
+    
+.add_to_cart{
+    margin-top: 10px;
+}
+
+.add_to_cart h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+
+.cart__left .cart__content{
+    width: 355px;
+    height: 150px;
+}
+
+.cart__inner .block_1 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.cart__inner .block_2 p{
+    font-size: 9px;
+
+    margin-bottom: 5px;
+}
+
+.cart__inner .cart_title_1{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.cart__inner .cart_title_2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.block_2 svg{
+    width: 17px;
+    height: 17px;
+}
+
+
+.order_details h4{
+    font-size: 24px;
+}
+
+.check_info{
+    width: 370px;
+}
+
+.check_info div .check_active{
+    font-size: 12px;
+}
+.check_info div p{
+    font-size: 12px;
+}
+
+
+.cart__form__block h4{
+    font-size: 24px;
+
+    margin-bottom: 2px;
+}
+
+.cart__form__block p{
+    font-size: 9px;
+}
+
+.form_1 input{
+    width: 174px;
+    height: 25px;
+}
+
+.form_2 input{
+    width: 114px;
+    height: 25px;
+}
+
+.form_3 textarea{
+    width: 354px;
+}
+
+.form_4 input{
+    width: 174px;
+    height: 25px;
+}
+
+
+.cart__form__block .cart__form div input::placeholder{
+    font-size: 12px;
+}
+
+.form_3 textarea::placeholder{
+    font-size: 12px;
+}
+
+         /* Result Итого    */
+
+.result p{
+    font-size: 20px;
+}
+
+.result a{
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+    /* Footer */
+
+    footer{    
+        height: 300px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    .footer_svg{
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    
+        /* Footer Content */
+    
+    .footer__catalog span{
+        font-size: 10px;
+    }
+    
+    .footer__catalog p{
+        font-size: 6px;
+        padding-top: 8px;
+    }
+    
+        /* Footer Navigation */ 
+    
+    .footer__navigation p{
+        font-size: 10px;
+    }
+    
+    .footer__navigation ul li{
+        padding-top: 0;
+    }
+    
+    .footer__navigation ul li a {
+        font-size: 6px;
+    }
+    
+    .footer_info_title_1{
+        font-size: 10px;
+        width: 160px;
+    
+        margin-bottom: 2px;
+    }
+    
+    .footer__info form input{
+        width: 100px;
+    }
+    
+    .footer__info form span svg {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .footer_info_title_2{
+        font-size: 5px;
+    }
+    
+        /* Footer privacy */
+    
+    .footer__privacy{
+        margin-top: 3px;
+    }
+    
+    .footer__privacy p{
+        font-size: 8px;
+    }
+
+}

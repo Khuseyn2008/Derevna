@@ -1,0 +1,272 @@
+@media (max-width: 1200px) {
+.contacts-footer-inner{
+    gap: 35px;
+}    
+}
+
+@media (max-width: 675px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        margin: 0 10px;
+      }
+        /* Header */
+
+        .svg__logo{
+            width: 91px;
+        }
+    
+        /* Navigation */
+    
+        nav{
+            padding: 5px 5px;
+        }
+    
+        nav ul{
+            display: none;
+        }
+    
+    
+        /* Header Link */
+    
+        .header__link{
+        gap: 0px;
+        margin-right: 5px;
+        }
+    
+        .header__link a{
+            margin-right: 11.5px;
+            font-weight: 400;
+            font-size: 10.35px;
+            padding: 4px 8px;
+        }
+    
+        .svg_heart{
+        width: 17px;
+        margin-right: 7px;
+        }
+    
+        .svg_Cart{
+        width: 17px;
+        }
+
+        .burger-menu{
+            display: block; 
+            margin-left: 10px;
+        }      
+
+
+
+
+.Contacts{
+    margin-top: 10px;
+}
+
+.title-contacts {
+    font-size: 24px;
+}
+
+.item-1 div:first-child h6{
+    font-size: 24px;
+}
+
+.item-1 div:first-child p{
+    font-size: 16px;
+}
+
+.item-1 div:last-child h6{
+    font-size: 24px;
+}
+
+.item-1 div:last-child p{
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+
+.item-2 p{
+    font-size: 14px;
+}
+
+.item-2 div h3{
+    font-size: 24px;
+}
+
+.contacts-footer-inner{
+    flex-direction: column;
+}
+
+.contacts-footer-inner img{
+    width: 340px;
+    height: 197px;
+}
+
+
+.contacts-footer-btns{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contacts-footer-btns a:first-child{
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.contacts-footer-btns a:last-child{
+
+    font-size: 12px;
+}
+
+    /*  Contact BLOCK   */
+
+    .contact{
+         width: 100%;
+         height: 360px;
+         padding-top: 0px;
+         padding-left: 0px;
+         padding-top: 35px;
+     }
+     
+     
+     .contact__inner{
+         width: 310px;
+         height: 310px;
+         margin-left: 32px;
+         border-radius: 8.74px;
+         padding: 6px 9px;
+     }
+     
+     .contact__content h3{
+         margin-top: 6px;
+         margin-bottom: 4px;
+         font-size: 20px;
+     }
+     
+     .contact_title_1{
+         margin-bottom: 5px;
+     
+         width: 297px;
+         line-height: 111%;
+         font-size: 8px;
+     }
+     
+     .contact_title_2{
+         font-size: 8px;
+         margin-bottom: 4px;
+     }
+     
+     input, textarea {
+         width: 289px;
+         margin-bottom: 4px;
+     
+         font-size: 9px;
+     }
+     
+     
+     textarea{
+         height: 46px;
+     }
+     
+     .contact__content form h4{
+         font-size: 9px;
+     
+         color: var(--brown-60);
+         margin-top: 2px;
+         margin-bottom: 1px;
+     }
+     
+     .contacts{
+         gap: 10px;
+         margin-bottom: 5px;
+     }
+     
+     .contacts a{
+         font-size: 8.74px;
+     }
+     
+     .contact__link{
+         margin-bottom: 8px;
+     }
+     
+     .contact__link a{
+         font-size: 10px;
+         padding: 5px 115px;
+     }
+     
+     .contact__policy{
+         font-size: 6px;
+     
+     }
+     
+    /* Footer */
+
+    footer{    
+        height: 300px;
+    }
+    
+    
+    
+    .footer_svg{
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    
+        /* Footer Content */
+    
+    .footer__catalog span{
+        font-size: 10px;
+    }
+    
+    .footer__catalog p{
+        font-size: 6px;
+        padding-top: 8px;
+    }
+    
+        /* Footer Navigation */ 
+    
+    .footer__navigation p{
+        font-size: 10px;
+    }
+    
+    .footer__navigation ul li{
+        padding-top: 0;
+    }
+    
+    .footer__navigation ul li a {
+        font-size: 6px;
+    }
+    
+    .footer_info_title_1{
+        font-size: 10px;
+        width: 160px;
+    
+        margin-bottom: 2px;
+    }
+    
+    .footer__info form input{
+        width: 100px;
+    }
+    
+    .footer__info form span svg {
+        width: 11px;
+        height: 11px;
+    }
+    
+    .footer_info_title_2{
+        font-size: 5px;
+    }
+    
+        /* Footer privacy */
+    
+    .footer__privacy{
+        margin-top: 3px;
+    }
+    
+    .footer__privacy p{
+        font-size: 8px;
+    }
+}
